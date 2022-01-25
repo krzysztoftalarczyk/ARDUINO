@@ -1,5 +1,5 @@
 1.
-Ceiling light on WS2812B RGB With Arduino supplied by the 
+Ceiling light on WS2812B RGB With Arduino supplied by the 5V/40A impulse power supply.
 
 #include <FastLED.h>
 
@@ -11,7 +11,7 @@ Ceiling light on WS2812B RGB With Arduino supplied by the
 
 #define COLOR_ORDER GRB
 
-#define NUM_LEDS    256
+#define NUM_LEDS    576
 
 CRGB leds[NUM_LEDS];
 
@@ -83,7 +83,7 @@ paletteIndex++;
 
 
 
-  2. Arduino Thermometr Atimeter with OLED Screen and pressure gauge
+  2. Arduino Thermometr Atimeter with OLED Screen and pressure gauge supplied by powerbank.
 
  
 #include "U8glib.h"
